@@ -8,3 +8,5 @@ For the official Hak5 Rubber Ducky Payloads see: https://github.com/hak5/usbrubb
 
 To encode a Ducky script see: https://ducktoolkit.com/
 
+For help with the Ducky language see: https://docs.hak5.org/hc/en-us/articles/360010555153-Ducky-Script-the-USB-Rubber-Ducky-language
+
