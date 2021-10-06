@@ -6,3 +6,5 @@ For help installing Circuit Python see: https://github.com/dbisu/pico-ducky
 
 For the official Hak5 Rubber Ducky Payloads see: https://github.com/hak5/usbrubberducky-payloads
 
+To encode a ducky script see: https://ducktoolkit.com/
+
