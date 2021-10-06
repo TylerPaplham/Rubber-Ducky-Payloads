@@ -1,6 +1,6 @@
-REM ------------------------------------
-REM :Credit To Fives
-REM ------------------------------------
+REM --------------------------------
+REM Payload that changes users wallpaper
+REM --------------------------------
 DELAY 500
 GUI M
 DELAY 300
@@ -38,5 +38,3 @@ DELAY 1000
 GUI M
 DELAY 500
 GUI L
-
-
