@@ -1,0 +1,5 @@
+#File to list different commands that you could run once you have your reverse shell set up
+#Note: this is still a work in progress
+
+#Start Chrome with a maximized window
+Start chrome http://example.com -WindowStyle maximized
