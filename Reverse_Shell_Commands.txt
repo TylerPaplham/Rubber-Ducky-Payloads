@@ -3,3 +3,12 @@
 
 #Start Chrome with a maximized window
 Start chrome http://example.com -WindowStyle maximized
+
+#Kill a process
+Taskkill /IM "process name" /F
+
+#View running processes
+Tasklist /fo table
+
+#Start up a hidden Powershell Window
+powershell IEX -command '<command_here>'
