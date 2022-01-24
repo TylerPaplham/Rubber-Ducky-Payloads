@@ -9,6 +9,15 @@ This repository contains payloads that can be used on a Raspberry Pi Pico using 
 
 ---
 
+# Disable Anti Virus (AV)
+This payload is intended to be added to other payloads that you write. Most of the time you'll need to disable anti virus prior to being able to run any additional payloads. This method also doesn't use Powershell/Command Prompt which helps make it less detectable.
+
+Simply copy the code in **Disable_AV_payload.dd** to the beginning of your payload
+
+**Note:** Delays may need to be adjusted to ensure payload runs smoothly
+
+---
+
 # Reverse Shell
 Credit: [hak5.org](https://docs.hak5.org/hc/en-us/articles/360010555233-How-to-Get-a-Reverse-Shell-in-3-Seconds-with-the-USB-Rubber-Ducky)
 
@@ -18,3 +27,16 @@ In order to get a reverse shell you will need the **Reverse-Shell_payload.dd** a
 - Then you'll need to update **Reverse-Shell_pyload.dd** on line 34 to reflect where you are hosting the **rspayload.ps1** file
 - See the file **Reverse_Shell_Commands.txt** for example commands you can run once you have a reverse shell set up
 ---
+
+# Windows Wallpaper Changer
+This payload does as the name would suggest. It downloads an image from the internet using Chrome. Saves it to the users "Downloads" folder and sets the background to that photo. Once complete it locks the screen to surprising the victim once they log in again.
+
+Change the URL after "chrome.exe" in the file **ChangeWallpaper_payload.dd** to a photo of your choice and you'll be all set.
+
+---
+
+
+
+
+
+
