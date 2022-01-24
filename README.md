@@ -35,7 +35,7 @@ Change the URL after "chrome.exe" in the file **ChangeWallpaper_payload.dd** to 
 
 ---
 
-
+**Disclaimer:** These payloads are for education purposes only! I'm not responsible for any unethical use of my code.
 
 
 
