@@ -1,5 +1,5 @@
 REM --------
-REM https://github.com/TylerPaplham/Rubber-Ducky-Payloads/new/main
+REM Source: https://github.com/TylerPaplham/Rubber-Ducky-Payloads/new/main
 REM Ducky Script for disabling AV w/o using powershell/command prompt
 REM --------
 DELAY 1000
