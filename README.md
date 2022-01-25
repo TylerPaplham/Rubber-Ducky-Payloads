@@ -45,6 +45,7 @@ In the **Wifi_Password_Stealer_payload.dd** file you'll need to change the follo
 - $Password
 - $Subject
 - $Body
+
 After updating this information you should be able to run the script on the target machine.
 
 ---
