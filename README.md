@@ -57,7 +57,7 @@ After updating this information you should be able to run the script on the targ
 - Add your script after the **-Value** flag on line 40
   - Note: Your script will need to be on one line with ';' after each command
 
-I've added the file **Keylogger_payload.dd** as an example of how to write your scripts. For instructions/code for this keylogger please see [this](https://github.com/TylerPaplham/Python-Projects)
+I've added the file **Keylogger_payload.dd** as an example of how to write your scripts. For instructions/code for this keylogger please see [this](https://github.com/TylerPaplham/Python-Projects).
 
 ---
 **Disclaimer:** These payloads are for education purposes only! I'm not responsible for any unethical use of my code.
