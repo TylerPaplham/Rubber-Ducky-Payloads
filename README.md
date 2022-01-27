@@ -47,6 +47,7 @@ Credit: [hak5.org](https://docs.hak5.org/hc/en-us/articles/360010555233-How-to-G
 - $Body
 
 After updating this information you should be able to run the script on the target machine.
+
 ---
 # Python Script Generator
 **Summary:** This payload disables AV and creates a Python script that will be automatically run on startup. This can be used to create and run various scripts such as a Python keylogger.
