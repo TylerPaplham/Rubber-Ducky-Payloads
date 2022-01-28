@@ -50,14 +50,12 @@ After updating this information you should be able to run the script on the targ
 
 ---
 # Python Script Generator
-**Summary:** This payload disables AV and creates a Python script that will be automatically run on startup. This can be used to create and run various scripts such as a Python keylogger.
+**Summary:** This payload disables AV and creates a Python script that will be automatically run on startup. This can be used to create and run various scripts such as a [Python keylogger](https://github.com/TylerPaplham/Python-Projects/blob/main/keylogger.py).
 
 **Setup:** In the **Script_Generator_payload.dd** file you'll need to...
 - Change the filename from **Python-Script.py** to whatever name you want
-- Add your script after the **-Value** flag on line 40
-  - Note: Your script will need to be on one line with ';' after each command
-
-I've added the file **Keylogger_payload.dd** as an example of how to write your scripts. For instructions/code for this keylogger please see [this](https://github.com/TylerPaplham/Python-Projects).
+- Encode your payload in base64 with a website like [this](https://www.base64encode.org/) 
+- Place that output onto line 40 where it says **base64-sting-here**
 
 ---
 **Disclaimer:** These payloads are for education purposes only! I'm not responsible for any unethical use of my code.
